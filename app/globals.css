@@ -23,3 +23,54 @@
 
   /* border-radius: 10px; */
 }
+
+
+.css-1fzpoyk:first-child{
+  opacity: 0.9 !important;
+  transform: translateY(-30%) translateX(-0%) scale(0.6) !important;
+  filter: blur(3px);
+  -webkit-transform: translateY(-30%) translateX(-0%) scale(0.6) !important;
+  -moz-transform: translateY(-30%) translateX(-0%) scale(0.6) !important;
+  -ms-transform: translateY(-30%) translateX(-0%) scale(0.6) !important;
+  -o-transform: translateY(-30%) translateX(-0%) scale(0.6) !important;
+}
+.css-1fzpoyk:nth-child(2){
+  opacity: 0.9 !important;
+  transform: translateY(-60%) translateX(35%) scale(0.6) !important;
+  z-index: 10;
+  left: 0 !important;
+  filter: blur(3px);
+  -webkit-transform: translateY(-60%) translateX(35%) scale(0.6) !important;
+  -moz-transform: translateY(-60%) translateX(35%) scale(0.6) !important;
+  -ms-transform: translateY(-60%) translateX(35%) scale(0.6) !important;
+  -o-transform: translateY(-60%) translateX(35%) scale(0.6) !important;
+  -webkit-transform: translateY(-50%) translateX(-66.6667%) scale(0.333333);
+  -webkit-filter: blur(3px);
+}
+.css-1fzpoyk:nth-child(3){
+  scale: 1.05 !important;
+}
+.css-1fzpoyk:nth-child(4){
+  opacity: 0.9 !important;
+  transform: translateY(-50%) translateX(120%) scale(0.6) !important;
+  z-index: 10;
+  left: 100px !important;
+  filter: blur(3px);
+  -webkit-transform: translateY(-50%) translateX(120%) scale(0.6) !important;
+  -moz-transform: translateY(-50%) translateX(120%) scale(0.6) !important;
+  -ms-transform: translateY(-50%) translateX(120%) scale(0.6) !important;
+  -o-transform: translateY(-50%) translateX(120%) scale(0.6) !important;
+  -webkit-transform: translateY(-50%) translateX(-66.6667%) scale(0.333333);
+}
+.css-1fzpoyk:nth-child(5){
+  opacity: 0.9 !important;
+  transform: translateY(-20%) translateX(150%) scale(0.4) !important;
+  z-index: 10;
+  left: 75px !important;
+  filter: blur(3px);
+  -webkit-transform: translateY(-20%) translateX(150%) scale(0.4) !important;
+  -moz-transform: translateY(-20%) translateX(150%) scale(0.4) !important;
+  -ms-transform: translateY(-20%) translateX(150%) scale(0.4) !important;
+  -o-transform: translateY(-20%) translateX(150%) scale(0.4) !important;
+  -webkit-transform: translateY(-50%) translateX(-66.6667%) scale(0.333333);
+}

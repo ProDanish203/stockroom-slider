@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 
@@ -23,7 +24,14 @@ export default function Card({ imagen }) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      <img src={imagen} alt="" />
+      <Image
+        src={imagen}
+        alt="image"
+        width={600}
+        height={400}
+        priority
+        className="object-contain -mt-[20%] w-[700px] h-[500px]"
+      />
     </animated.div>
   );
 }

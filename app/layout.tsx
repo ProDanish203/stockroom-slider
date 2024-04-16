@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="w-screen">
+        <div className="">
+          <main className="w-full h-full md:py-10 py-5">{children}</main>
+        </div>
+      </body>
     </html>
   );
 }
